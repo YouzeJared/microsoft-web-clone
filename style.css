@@ -1,0 +1,904 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+/*圆圈位置和大小*/
+.btm-sliders {
+  position: absolute;
+  padding-top: 35px;
+  left: 45%;
+  font-size: 10px;
+  cursor: pointer;
+
+}
+
+.btm-sliders #gt {
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0 3px;
+  color: black;
+  cursor: pointer;
+  
+
+
+}
+
+header {
+  margin: 0 auto;
+
+}
+
+body {
+
+  margin: 0 auto;
+
+
+}
+
+main {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+/*nav*/
+.navbar {
+  max-width: 1750px; 
+  margin: 0 auto;
+}
+.container-fluid {
+  padding: 0!important;
+}
+.dropdown-menu a {
+  padding-left: 20px;
+}
+
+.dropdown-menu .down a {
+  color: black;
+  text-decoration: none;
+
+}
+
+.nav-link1 {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  padding: 12px 0;
+}
+
+
+.sele {
+  padding-bottom: 10px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+nav {
+  max-width: 1800px;
+  margin: 0 auto;
+
+}
+
+.nav-item a {
+  display: flex;
+}
+.nav-item .nav-link {
+  color: black;
+}
+
+.logo {
+  height: 30px;
+  padding-bottom: 10px;
+
+}
+
+nav {
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+ul {
+  font-size: 10px;
+  margin-top: 5px;
+
+
+}
+ul.dropdown-menu {
+  background-color: #f2f2f2;
+}
+span.box {
+  font-size: 13px; right:5px; position: absolute;
+}
+
+#sele {
+  font-size: 10px;
+  margin-bottom: 5px;
+  padding: 0 10px;
+}
+
+.sele:hover {
+  text-decoration: underline;
+}
+
+.menu li a {
+  color: black;
+  text-decoration: none;
+}
+#view {
+  color: black; text-decoration: none;
+}
+.views {
+  background-color: #E6E6E6; padding-left: 630px; border-bottom: 2px solid black; padding-top: 5px;
+}
+
+#search-box {
+  display: none;
+}
+#cart {
+  list-style: none;
+}
+#search {
+  list-style: none;
+}
+
+
+/*hover效果箭头旋转90度 */
+.box:hover {
+  transform: rotate(90deg);
+}
+
+
+/*carouse*/
+.content {
+  height: 590px;
+  max-width: 1930px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.item {
+  position: relative;
+}
+
+.carousel-inner img {
+  width: 100%;
+  
+}
+
+.carousel-inner:hover {
+  cursor: pointer;
+}
+
+.carousel-item {
+  position: relative;
+
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 20%;
+  left: 9%;
+  color: black;
+  text-align: left;
+}
+.carousel-caption span {
+  background-color: #fef000; color: black; font-weight: 600px;padding: 5px;
+}
+
+/*hover效果向左移动 */
+.btm-sliders #left:hover {
+  transform: translateX(-10px);
+  transition: 0.5s;
+}
+
+/*hover效果向右移动 */
+.btm-sliders #right:hover {
+  transform: translateX(10px);
+  transition: 0.5s;
+}
+.btm-sliders {
+  display: flex;
+}
+#stop {
+  padding-right: 10px;
+}
+#left {
+  border: none; color: black;
+}
+#right {
+  color: black; text-align: right; border: none; 
+}
+.circles {
+  display: flex; padding: 5px 10px;
+}
+
+
+.carousel-caption h3 {
+  text-align: left;
+  color: black;
+  font-size: 37px;
+}
+
+.carousel-caption h6 {
+  background-color: yellow;
+  font-weight: lighter;
+
+  padding: 8px;
+
+}
+
+.carousel-caption p {
+  text-align: left;
+  font-size: 16px;
+}
+
+.carousel-inner .btn:hover {
+  opacity: 0.9;
+  background-color: #0031b8;
+  color: white;
+}
+
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #0067b8;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  display: inline-block;
+  border: 0;
+}
+
+
+/*cards*/
+
+
+.office {
+  display: flex;
+
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 80px;
+
+}
+
+.office ul {
+  display: flex;
+}
+
+.office ul h1 {
+  font-size: 15px;
+}
+
+.office ul h1:hover {
+  cursor: pointer;
+}
+
+.office ul li {
+  text-align: center;
+  padding: 25px;
+  list-style: none;
+
+}
+
+.office a {
+  color: #0031b8;
+}
+
+.office li img {
+  padding-bottom: 10px;
+}
+
+/*cards*/
+
+.mainn {
+  max-width: 1750px; margin: 0 auto;
+}
+
+.row:hover {
+  cursor: pointer;
+}
+
+.col img {
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+.row h3 {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 30px;
+  font-weight: 600; line-height: 1.2;
+
+
+}
+
+
+.new {
+  padding: 5px;
+
+}
+
+.col a.hr:hover {
+  border-bottom: 1px solid #0067b8;
+  margin-right: 5px;
+  transition: 1s;
+}
+
+.col a {
+  font-size: 13px;
+
+  font-weight: bolder;
+}
+
+
+
+.col p {
+  font-size: larger;
+  padding-top: 10px;
+  font-size: 16px;
+}
+a.hr {
+  color: #0067b8; 
+  text-decoration: none; 
+  font-size: 16px;
+}
+a.hrs {
+  color: #0067b8; 
+  text-decoration: none; 
+  font-size: 16px;
+}
+
+#heading {
+  padding-top: 100px;
+}
+
+
+/*business*/
+.business {
+  text-align: left;
+  padding-top: 100px;
+
+
+}
+span.new {
+  background-color: #ffb900;font-weight: bolder;
+}
+
+/*link*/
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+
+.links * {
+  margin-right: 20px;
+}
+
+.links img {
+  width: 30px;
+}
+
+.links p {
+  margin-top: 15px;
+}
+
+.links img:hover {
+  cursor: pointer;
+}
+
+/*row1*/
+
+.row {
+
+  padding: 35px 0;
+  font-size: 12px;
+
+}
+
+.row ul li {
+
+  line-height: 2.5;
+
+
+}
+
+.row ul {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/*footer*/
+.footerr {
+  max-width: 1750px; margin: 0 auto;
+}
+footer .row a p:hover {
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+
+footer .row a {
+  text-decoration: none;
+  color: #818181;
+}
+
+.footers div {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  background-color: #f2f2f2;
+}
+
+footer li {
+  list-style: none;
+  text-decoration: none;
+  color: #818181;
+
+
+}
+
+.footerbtncredit {
+  display: flex;
+  justify-content: space-between;
+  color: #818181;
+  padding-left: 100px;
+  padding-top: 1px;
+  padding: 0!important;
+}
+.footerbtncredit span {
+  padding-left: 15px;
+}
+.footerbtncredit span h6 {
+  font-size: 12px; padding-top: 2px;
+}
+
+.en {
+  color: #818181;
+  font-size: 12px;
+  display: flex;
+}
+
+.en a:hover {
+  text-decoration: underline;
+}
+
+footer ul h6 {
+  color: #616161;
+}
+
+
+footer ul li a:hover {
+  border-bottom: 1px solid black;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #818181;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+
+}
+
+.com {
+  float: right;
+}
+
+
+#scall {
+  display: flex;
+  justify-content: center;
+  border: none;
+
+}
+
+#scall nav li a {
+  padding: 0 10px;
+
+}
+
+/*hover效果填充黑色 
+ #stop:hover {
+  width: 24px;
+  height: 23px;
+  border-radius: 50%;
+  color: white;
+  background: black;
+}*/
+
+/*hover效果向左移动 */
+#scall #left:hover {
+
+  transform: translateX(-10px);
+  transition: 1s;
+}
+
+/*hover效果向右移动 */
+#scall #right:hover {
+  transform: translateX(10px);
+  transition: 1s;
+}
+
+#search-box {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  border-radius: 0%;
+
+  background-color: white;
+}
+
+#search-box>div {
+  display: flex;
+  align-items: center;
+
+}
+
+#search-box .navbar-brand {
+  width: 93px;
+
+}
+
+#search-box input {
+  max-width: 1300px;
+}
+
+.w-75 {
+  width: 100% !important;
+  margin-left: 50px;
+}
+
+#cancel-button {
+  width: 80px;
+  height: 40px;
+  border: 1px solid #262626;
+  font-size: 13px;
+  background-color: #fff;
+  margin-right: 80px;
+  margin-left: 10px !important;
+}
+
+.pe-3 {
+  padding-left: 10rem !important;
+}
+
+.d-inline {
+  display: inline !important;
+  padding: 0!important; margin-left: 10px;
+}
+
+/*在placeholder里面加图片**/
+#searchicon {
+  background-image: url(20230319210555.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+
+@media (max-width: 980px) {
+  #searchicon {
+    background-image: url(20230319210555.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    text-indent: 30px;
+  }
+
+}
+
+@media (max-width: 860px) {
+  .btm-sliders {
+    left: 35%;
+  }
+
+  #heading {
+    padding: 20px !important;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  #search-box>div {
+    justify-content: start;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+
+  #bileft {
+
+    display: none;
+  }
+}
+
+
+@media (max-width: 2000px) {
+
+  .carousel-caption {
+    position: absolute;
+    top: 25%;
+    left: 50px;
+    color: black;
+    text-align: left;
+
+
+  }
+
+}
+
+@media (min-width: 891px) {
+
+  a.nav-link1 {
+    display: none;
+  }
+
+
+}
+
+@media (max-width: 992px) {
+
+
+
+  #navbarSupportedContent {
+    background-color: #f2f2f2;
+
+    background-image: linear-gradient(#e6e6e6 2px, transparent 0);
+    background-size: 50px 45px;
+
+
+
+  }
+
+  .nav-link1 {
+    padding-left: 10px;
+    background-color: #f2f2f2;
+
+    background-image: linear-gradient(#e6e6e6 2px, transparent 0);
+    background-size: 50px 45px;
+
+  }
+
+  .down {
+
+    padding: 10px 10px;
+    background-color: #f2f2f2;
+
+    background-image: linear-gradient(#e6e6e6 2px, transparent 0);
+    background-size: 50px 45px;
+    font-size: 12px;
+  }
+
+}
+
+
+
+@media (max-width: 992px) {
+
+  span.sele:hover {
+    text-decoration: none;
+  }
+
+  .navbar-toggler {
+    order: 0;
+  }
+
+  #sele {
+    display: none;
+  }
+
+  span.sele {
+    padding-left: 10px;
+  }
+
+  #cart {
+    flex: 1;
+    order: 3;
+    padding-right: 10px;
+  }
+
+  .navbar-brand {
+    order: 2;
+
+    flex: 15;
+    text-align: center;
+  }
+
+  #sign {
+
+    padding-right: 10px;
+    order: 4;
+    flex: 1;
+  }
+
+  #search {
+    flex: 1;
+    order: 1;
+  }
+
+  #mic {
+    display: none;
+  }
+
+  #navbarSupportedContent {
+    order: 5;
+
+
+  }
+
+  .w-75 {
+    margin: 10px !important;
+    padding-bottom: 2px;
+  }
+}
+
+@media (max-width: 790px) {
+  .carousel-inner img {
+    padding-bottom: 200px;
+  }
+
+  .carousel-caption {
+    margin-top: 200px;
+    background-color: #fff;
+    height: 224px;
+    width: 100%;
+    margin-left: -95px;
+    left: 100px;
+    
+
+  }
+
+  .carousel-caption h3 {
+    font-size: 20px;
+
+  }
+
+  .carousel-caption p {
+    font-size: 10px;
+
+  }
+
+  .carousel-caption .btn {
+    font-size: 10px;
+
+  }
+}
+
+@media (min-width: 465px) and (max-width: 610px) {
+  .carousel-inner img {
+    padding-bottom: 200px;
+  }
+
+  .carousel-caption {
+
+
+    background-color: #fff;
+    height: 224px;
+    width: 881px;
+    /*margin-left: -68px;*/
+    padding-top: 50px;
+    padding: 30px !important;
+
+  }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1832px) {
+  header {
+    padding: 0 50px;
+  }
+}
+
+
+@media (min-width: 800px) and (max-width: 1090px) {
+  .carousel-inner img {
+    padding-bottom: 200px;
+  }
+
+  .content {
+    height: 700px;
+  }
+  
+
+  .carousel-caption {
+    position: absolute;
+    margin-top: 300px;
+    border-bottom: 1px solid wheat;
+    background-color: #fff;
+    height: 224px;
+    width: 90%;
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
+  }
+  
+
+  .carousel-caption h3 {
+    font-size: 20px;
+    margin-left: 20px
+  }
+
+  .carousel-caption p {
+    font-size: 10px;
+    margin-left: 20px
+  }
+
+  .carousel-caption .btn {
+    font-size: 10px;
+    margin-left: 20px
+  }
+
+  .carousel-caption span {
+    margin-left: 20px
+  }
+  #heading {
+    padding: 50px !important;
+  }
+
+ 
+ 
+}
+
+@media (min-width: 900px) and (max-width: 1400px) {
+
+
+  #sele {
+    display: none;
+  }
+
+  #cart1,
+  #sign1,
+  #search1 {
+    padding: 0 10px;
+  }
+
+}
+
+.menu {
+  list-style: none;
+  font-size: 12px;
+}
+
+.menu li a {
+  padding: 10px 30px;
+  text-align: center;
+  justify-content: left;
+}
+
+.dropdown-menu li .down:hover {
+  text-decoration: underline;
+
+}
+
+#view:hover {
+  text-decoration: underline;
+
+}

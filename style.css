@@ -902,3 +902,10 @@ footer ul li a {
   text-decoration: underline;
 
 }
+@media (max-width: 800px) {
+  .footerbtncredit {
+    padding-top: 20px  !important;
+  }
+  
+
+}
